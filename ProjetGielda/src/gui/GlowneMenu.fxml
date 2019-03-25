@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GlowneMenuController">
+   <children>
+      <Button layoutX="67.0" layoutY="77.0" mnemonicParsing="false" onAction="#przejdzdoaktyw" prefHeight="94.0" prefWidth="103.0" text="Aktywa" />
+      <Button layoutX="170.0" layoutY="200.0" mnemonicParsing="false" onAction="#przejdzdoklientow" prefHeight="94.0" prefWidth="103.0" text="Klienci" />
+      <Button layoutX="260.0" layoutY="77.0" mnemonicParsing="false" onAction="#przejdzdorynkow" prefHeight="94.0" prefWidth="103.0" text="Rynki" />
+      <Button layoutX="426.0" layoutY="338.0" mnemonicParsing="false" onAction="#zapiszwszystko" text="Zapisz stan gieldy" />
+      <Button layoutX="444.0" layoutY="77.0" mnemonicParsing="false" onAction="#przejdzdospolek" prefHeight="94.0" prefWidth="103.0" text="Spólki" />
+      <Button layoutX="352.0" layoutY="200.0" mnemonicParsing="false" onAction="#przejdzdolaczonychwykresow" prefHeight="94.0" prefWidth="103.0" text="Łaczony wykres" />
+   </children>
+</AnchorPane>

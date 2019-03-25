@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.WidokSpolkiController">
+    <Button layoutX="685.0" layoutY="519.0" mnemonicParsing="false" onAction="#back" prefHeight="59.0" prefWidth="101.0" text="Cofnij" />
+    <ListView fx:id="listaspolek" layoutX="36.0" layoutY="33.0" onMouseClicked="#wyswietlspolke" prefHeight="474.0" prefWidth="212.0" />
+    <Button layoutX="290.0" layoutY="472.0" mnemonicParsing="false" onAction="#dodajspolke" text="Dodaj Spolke" />
+    <Button layoutX="432.0" layoutY="472.0" mnemonicParsing="false" onAction="#usunspolke" text="Usun Spolke" />
+   <Label layoutX="327.0" layoutY="88.0" text="Nazwa" />
+   <Label layoutX="327.0" layoutY="138.0" text="Data wejscia na gielde" />
+   <Label layoutX="327.0" layoutY="187.0" text="kurs otwarcia" />
+   <Label layoutX="327.0" layoutY="234.0" text="zysk" />
+   <Label layoutX="327.0" layoutY="279.0" text="przychod" />
+   <Label layoutX="327.0" layoutY="316.0" text="kapital wlasny" />
+   <Label layoutX="327.0" layoutY="359.0" text="kapital zakladowy" />
+   <Label fx:id="nazwa" layoutX="500.0" layoutY="88.0" text="nazwa" />
+   <Label fx:id="data" layoutX="500.0" layoutY="138.0" text="data" />
+   <Label fx:id="kurs" layoutX="500.0" layoutY="187.0" text="kurs otwarcia" />
+   <Label fx:id="zysk" layoutX="500.0" layoutY="234.0" text="zysk" />
+   <Label fx:id="przychod" layoutX="500.0" layoutY="279.0" text="przychod" />
+   <Label fx:id="wlasny" layoutX="500.0" layoutY="316.0" text="wlasny" />
+   <Label fx:id="zakladowy" layoutX="500.0" layoutY="359.0" text="zakladowy" />
+   <Button layoutX="291.0" layoutY="533.0" mnemonicParsing="false" onAction="#wykup" text="Wykup Akcje" />
+   <TextField fx:id="cenawylupu" layoutX="421.0" layoutY="533.0" prefHeight="31.0" prefWidth="117.0" />
+   
+
+</AnchorPane>

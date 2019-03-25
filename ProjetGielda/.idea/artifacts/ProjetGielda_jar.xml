@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProjetGielda:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjetGielda_jar</output-path>
+    <root id="archive" name="ProjetGielda.jar">
+      <element id="module-output" name="ProjetGielda" />
+    </root>
+  </artifact>
+</component>
